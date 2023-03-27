@@ -40,19 +40,19 @@ class _MyHomePageState extends State<MyHomePage> {
                 borderRadius: BorderRadius.circular(60), // Creates border
                 color: Color(0xff000000)), //Change background color from here
             tabs: [
-              Tab(icon: Icon(Icons.flight)),
-              Tab(icon: Icon(Icons.directions_transit)),
-              Tab(icon: Icon(Icons.directions_car)),
+              Tab(icon: Icon(Icons.access_alarm)),
+              Tab(icon: Icon(Icons.accessibility_new_rounded)),
+              Tab(icon: Icon(Icons.add_alert)),
               Tab(icon: Icon(Icons.camera_alt)),
             ],
           ),
-          title: Text('Tabs Demo'),
+          title: Text('Tabs Blanca Rodriguez'),
         ),
         body: TabBarView(
           children: [
-            Icon(Icons.flight, size: 350),
-            Icon(Icons.directions_transit, size: 350),
-            Icon(Icons.directions_car, size: 350),
+            Icon(Icons.access_alarm, size: 350),
+            Icon(Icons.accessibility_new_rounded, size: 350),
+            Icon(Icons.add_alert, size: 350),
             Icon(Icons.camera_alt, size: 350),
           ],
         ),
